@@ -7,4 +7,4 @@
 | ------------- |:-------------:|
 | POST          | /auth/broker/auth_on_register |
 | POST          | /auth/broker/auth_on_subscribe |
-| POST          | /auth/broker/auth_on_publish' |
+| POST          | /auth/broker/auth_on_publish |
