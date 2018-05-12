@@ -4,7 +4,6 @@
   "description": "VerneMQ webhooks plugin for gorilla-auth",
   "main": "index.js",
   "repository": "https://github.com/HamburgChimps/vernemq",
-  "author": "Jacob 'The' Evans",
   "license": "MIT",
   "dependencies": {
     "apollo-fetch": "^0.7.0",
