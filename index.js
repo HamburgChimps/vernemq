@@ -3,12 +3,12 @@ const { Router } = require('express')
 const { createApolloFetch } = require('apollo-fetch')
 const pino = require('pino')
 
-class Cybus extends Router {
+class VerneMq extends Router {
   constructor (graphqlUri) {
     super()
     const log = pino()
     const client = createApolloFetch({ uri: graphqlUri })
-    log.info(`Cybus plugin enabled`)
+    log.info(`VerneMq plugin enabled`)
 
     this.post('/auth/broker/auth_on_register', async (req, res) => {
       log.info('Register')
@@ -88,4 +88,4 @@ class Cybus extends Router {
   }
 }
 
-module.exports = Cybus
+module.exports = VerneMq
