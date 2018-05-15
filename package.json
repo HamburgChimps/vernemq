@@ -1,5 +1,5 @@
 {
-  "name": "vernemq",
+  "name": "gorilla-auth-vernemq",
   "version": "1.0.0",
   "description": "VerneMQ webhooks plugin for gorilla-auth",
   "main": "index.js",
